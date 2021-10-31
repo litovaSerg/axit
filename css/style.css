@@ -1,0 +1,76 @@
+/* Adding Fonts Raleway*/
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("Raleway-Regular.eot");
+  src: local("Raleway"), local("Raleway-Regular"),
+    url("../fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("Raleway-Light.eot");
+  src: local("Raleway Light"), local("Raleway-Light"),
+    url("../fonts/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Light.woff") format("woff"),
+    url("../fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("Raleway-Bold.eot");
+  src: local("Raleway Bold"), local("Raleway-Bold"),
+    url("../fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Bold.woff") format("woff"),
+    url("../fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/* Adding Fonts Open Sans */
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("OpenSans-Bold.eot");
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("OpenSans-Italic.eot");
+  src: local("Open Sans Italic"), local("OpenSans-Italic"),
+    url("../fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-Italic.woff") format("woff"),
+    url("../fonts/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("OpenSans-Regular.eot");
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("OpenSans-SemiBold.eot");
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-SemiBold.woff") format("woff"),
+    url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
