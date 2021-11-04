@@ -21,6 +21,26 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Raleway-ExtraLight";
+  src: url("Raleway-ExtraLight.eot");
+  src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"),
+    url("../fonts/Raleway-ExtraLight.eot#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-ExtraLight.woff") format("woff"),
+    url("../fonts/Raleway-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Thin";
+  src: url("Raleway-Thin.eot");
+  src: local("Raleway Thin"), local("Raleway-Thin"),
+    url("../fonts/Raleway-Thin.eot#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Thin.woff") format("woff"),
+    url("../fonts/Raleway-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
   font-family: "Raleway-Bold";
   src: url("Raleway-Bold.eot");
   src: local("Raleway Bold"), local("Raleway-Bold"),
@@ -73,4 +93,155 @@
     url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
+}
+/* Main style */
+/* Header style start */
+body {
+  font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.site-header {
+  background-color: #000;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.top-header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.top-header__box,
+.header-title__box,
+.main-content__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.top-header__logo {
+}
+.top-header__nav {
+}
+.top-header__navbar {
+  display: flex;
+}
+.top-header__item {
+  margin-right: 47px;
+}
+.top-header__item:last-child {
+  margin-right: 0;
+}
+.top-header__link {
+  font-family: "OpenSans-SemiBold", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.69);
+}
+.top-header__link:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+.header-title {
+  padding: 110px 0 139px 0;
+  background: url("../images/header-back.png") no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.header-title__inner {
+}
+.header-title__logo {
+  margin-bottom: 10px;
+}
+.header-title__h1 {
+  margin-bottom: 27px;
+  font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
+  margin-left: -2px;
+  font-size: 36px;
+}
+.header-title__line {
+}
+.header-title__text {
+  width: 100%;
+  max-width: 462px;
+  margin-bottom: 46px;
+  font-family: "Raleway-Light", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-title__download {
+  display: inline-block;
+  padding: 11px 31px;
+  font-family: "OpenSans-SemiBold", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+}
+.header-title__content {
+  flex: 0 0 550px;
+}
+.trial-form {
+  width: 100%;
+  max-width: 360px;
+  align-self: flex-end;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.trial-form__header {
+  margin-bottom: 27px;
+  padding: 13px 53px 14px 53px;
+  text-align: center;
+  font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  background-color: rgb(245, 245, 245);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.trial-form__header span {
+  color: rgb(255, 139, 56);
+}
+.trial-form__form {
+  padding: 0 35px 0 40px;
+}
+.trial-form__input {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.trial-form__input:first-child {
+  margin-bottom: 32px;
+}
+.trial-form__input:nth-child(2) {
+  margin-bottom: 43px;
+}
+.trial-form__input:last-child {
+  margin-bottom: 47px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #bdbdbd;
+  padding-left: 10px;
+}
+.trial-form__footer {
+  padding: 17px 138px;
+  font-family: "OpenSans-SemiBold", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(255, 155, 81);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
