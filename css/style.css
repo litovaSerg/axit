@@ -289,14 +289,12 @@ input::placeholder {
 .social__item:last-child .social__link--big {
   margin-right: 10px;
 }
-
 /* Tab styles */
 .tab {
   font-family: "OpenSans-Bold";
   font-size: 15px;
   line-height: 1.33;
 }
-
 /* Button style for open tabs */
 .tab button {
   display: block;
@@ -340,8 +338,6 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
 }
-.tab {
-}
 .tabs__items {
 }
 .tablinks {
@@ -354,10 +350,6 @@ input::placeholder {
 .tablinks:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-}
-.tabcontent {
-}
-.tabs__content {
 }
 .tabs__text {
   padding: 0 94px;
@@ -390,6 +382,4 @@ input::placeholder {
 }
 .tabs__image {
   padding-top: 20px;
-}
-.tabs__column {
 }
