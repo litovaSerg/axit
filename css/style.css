@@ -497,8 +497,9 @@ input::placeholder {
   max-width: 1150px;
   margin: 0 auto;
 }
-.awesome h3,
-.pricing__content h3 {
+.awesome__content h3,
+.pricing__content h3,
+.customers__content h3 {
   position: relative;
   margin-bottom: 30px;
   text-align: center;
@@ -507,8 +508,9 @@ input::placeholder {
   font-size: 36px;
   color: rgb(33, 33, 33);
 }
-.awesome h3::after,
-.pricing__content h3::after {
+.awesome__content h3::after,
+.pricing__content h3::after,
+.customers__content h3::after {
   position: absolute;
   display: block;
   text-align: center;
@@ -521,7 +523,8 @@ input::placeholder {
   margin-top: 25px;
 }
 .awesome__content p,
-.pricing__content p {
+.pricing__content p,
+.customers__content p {
   padding-top: 25px;
   margin-bottom: 75px;
   text-align: center;
@@ -641,4 +644,70 @@ input::placeholder {
 }
 .pricing__column-description p:last-child {
   border-bottom: none;
+}
+/* Customers */
+.customers {
+}
+.customers__content {
+  padding-top: 98px;
+  padding-bottom: 101px;
+}
+.customers__content p {
+  margin-bottom: 50px;
+}
+.customers__row {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.customers__column {
+  flex: 0 0 273px;
+}
+.customers__column p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.customers__column-text {
+  position: relative;
+  padding: 20px 10px 30px 10px;
+  margin-bottom: 25px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 2px;
+}
+.customers__column-text p {
+  line-height: 1.2;
+}
+.customers__column-text::before,
+.customers__column-text::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid rgb(245, 245, 245);
+}
+.block::after {
+  border-top: 10px solid white;
+  bottom: -19px;
+}
+.customers__client {
+  padding-left: 5px;
+  display: flex;
+}
+.customers__img {
+}
+.customers__name {
+  padding-left: 15px;
+  padding-top: 14px;
+}
+.customers__name p {
+  line-height: 1.2;
+}
+.customers__name h4 {
+  margin-bottom: 5px;
+  font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
 }
