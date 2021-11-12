@@ -101,7 +101,8 @@ body {
   font-size: 14px;
   /* background-color: rgb(0, 0, 0); */
 }
-.site-header {
+.site-header,
+.stylish {
   background-color: #000;
   color: #fff;
 }
@@ -173,7 +174,7 @@ body {
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.8);
 }
-.header-title__download {
+.btn-download {
   display: inline-block;
   padding: 11px 31px;
   font-family: "OpenSans-SemiBold", Arial, Helvetica, sans-serif;
@@ -499,7 +500,8 @@ input::placeholder {
 }
 .awesome__content h3,
 .pricing__content h3,
-.customers__content h3 {
+.customers__content h3,
+.stylish__content h3 {
   position: relative;
   margin-bottom: 30px;
   text-align: center;
@@ -510,7 +512,8 @@ input::placeholder {
 }
 .awesome__content h3::after,
 .pricing__content h3::after,
-.customers__content h3::after {
+.customers__content h3::after,
+.stylish__content h3::after {
   position: absolute;
   display: block;
   text-align: center;
@@ -524,7 +527,8 @@ input::placeholder {
 }
 .awesome__content p,
 .pricing__content p,
-.customers__content p {
+.customers__content p,
+.stylish__content p {
   padding-top: 25px;
   margin-bottom: 75px;
   text-align: center;
@@ -646,11 +650,8 @@ input::placeholder {
   border-bottom: none;
 }
 /* Customers */
-.customers {
-}
 .customers__content {
-  padding-top: 98px;
-  padding-bottom: 101px;
+  padding: 98px 0;
 }
 .customers__content p {
   margin-bottom: 50px;
@@ -710,4 +711,29 @@ input::placeholder {
   font-size: 20px;
   font-weight: bold;
   color: rgb(51, 51, 51);
+}
+/* Stylish Block */
+.stylish__content {
+  text-align: center;
+  width: 100%;
+  height: 320px;
+  background: url("../images/clip.png") no-repeat;
+  background-position: left bottom;
+  overflow: hidden;
+}
+.stylish__content p {
+  margin-bottom: 33px;
+  font-family: "Raleway-Light", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.8);
+}
+.stylish__content h3 {
+  padding-top: 66px;
+  color: rgb(255, 255, 255);
+}
+.stylish__content h3::after {
+  left: 47.7%;
+  background-color: rgb(255, 255, 255);
 }
