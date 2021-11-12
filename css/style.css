@@ -228,10 +228,12 @@ body {
 .trial-form__input:last-child {
   margin-bottom: 50px;
 }
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #bdbdbd;
   padding-left: 10px;
 }
@@ -374,7 +376,7 @@ input::placeholder {
 .tabs__text p:last-of-type {
   margin-bottom: 50px;
 }
-.tabs__download {
+.button {
   display: inline-block;
   padding: 13px 23px 13px 25px;
   font-family: "OpenSans-SemiBold", Arial, Helvetica, sans-serif;
@@ -501,7 +503,8 @@ input::placeholder {
 .awesome__content h3,
 .pricing__content h3,
 .customers__content h3,
-.stylish__content h3 {
+.stylish__content h3,
+.contact__content h3 {
   position: relative;
   margin-bottom: 30px;
   text-align: center;
@@ -513,7 +516,8 @@ input::placeholder {
 .awesome__content h3::after,
 .pricing__content h3::after,
 .customers__content h3::after,
-.stylish__content h3::after {
+.stylish__content h3::after,
+.contact__content h3::after {
   position: absolute;
   display: block;
   text-align: center;
@@ -528,7 +532,8 @@ input::placeholder {
 .awesome__content p,
 .pricing__content p,
 .customers__content p,
-.stylish__content p {
+.stylish__content p,
+.contact__content p {
   padding-top: 25px;
   margin-bottom: 75px;
   text-align: center;
@@ -737,3 +742,46 @@ input::placeholder {
   left: 47.7%;
   background-color: rgb(255, 255, 255);
 }
+/* Contact Block */
+.contact__content {
+  padding: 98px 0 0 0;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact__content p {
+  margin-bottom: 58px;
+}
+.contact__row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__column {
+  flex: 0 0 531px;
+}
+.contact__field {
+  display: block;
+  width: 100%;
+  padding: 11px 10px 12px 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.contact__field:last-child {
+  margin-bottom: 0;
+}
+.contact__textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  resize: none;
+}
+/* .btn-download--yellow {
+  padding: 12px 23px 12px 23px;
+  background-color: rgb(255, 155, 81);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+} */
