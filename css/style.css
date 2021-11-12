@@ -102,7 +102,8 @@ body {
   /* background-color: rgb(0, 0, 0); */
 }
 .site-header,
-.stylish {
+.stylish,
+.footer {
   background-color: #000;
   color: #fff;
 }
@@ -182,6 +183,10 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   border: 1px solid #fff;
+}
+.btn-download:hover {
+  background-color: #bdbdbd;
+  color: rgb(0, 0, 0);
 }
 .header-title__content {
   flex: 0 0 550px;
@@ -385,6 +390,9 @@ textarea::placeholder {
   text-decoration: none;
   background-color: rgb(255, 139, 56);
   border-radius: 3px;
+}
+.button:hover {
+  background-color: rgb(51, 51, 51);
 }
 .tabs__download:hover {
   background-color: rgb(51, 51, 51);
@@ -744,10 +752,10 @@ textarea::placeholder {
 }
 /* Contact Block */
 .contact__content {
-  padding: 98px 0 0 0;
+  padding-top: 98px;
   width: 100%;
   max-width: 1120px;
-  margin: 0 auto;
+  margin: 0 auto 82px auto;
   text-align: center;
 }
 .contact__content p {
@@ -779,9 +787,26 @@ textarea::placeholder {
   border-bottom: 1px solid rgb(214, 214, 214);
   resize: none;
 }
-/* .btn-download--yellow {
-  padding: 12px 23px 12px 23px;
-  background-color: rgb(255, 155, 81);
-  color: rgb(255, 255, 255);
-  border-radius: 4px;
-} */
+/* Footer */
+.footer {
+  padding: 20px 0 15px 0;
+}
+.footer-social {
+  margin-bottom: 12px;
+  font-size: 24px;
+  color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social__link--small {
+  margin-right: 26px;
+}
+.social__item:last-child .social__link--small {
+  margin-right: 0;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.502);
+}
