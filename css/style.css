@@ -119,7 +119,7 @@ body {
 }
 .top-header__box,
 .header-title__box,
-.main-content__social {
+.box-shadow__social {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -256,25 +256,22 @@ textarea::placeholder {
   cursor: pointer;
 }
 /* Social */
-.main-content {
-  background-color: rgb(255, 255, 255);
-}
 .box-shadow {
   -webkit-box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.38);
   box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.8);
 }
-.main-content__social {
+.box-shadow__social {
   padding: 20px 0;
 }
-.main-content__social-box {
+.box-shadow__social-box {
   flex: 0 0 364px;
 }
-.main-content__social-text {
+.box-shadow__social-text {
   color: rgb(134, 135, 139);
   line-height: 1.4;
 }
-.main-content__social-title {
+.box-shadow__social-title {
   margin-bottom: 5px;
   font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
   font-weight: bold;
