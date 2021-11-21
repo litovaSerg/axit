@@ -5,15 +5,19 @@
   width: 100%;
 }
 .header-title__box {
-  flex-wrap: wrap;
+  flex-flow: column nowrap;
   justify-content: center;
 }
 .top-header__box {
   justify-content: center;
+  flex-wrap: wrap;
 }
 .top-header__logo {
   padding-right: 4%;
   padding-left: 2%;
+}
+.top-header__navbar {
+  flex-wrap: wrap;
 }
 .top-header__link {
   font-size: 18px;
@@ -40,6 +44,7 @@
 }
 .trial-form {
   max-width: 70%;
+  align-self: center;
 }
 .btn-download {
   margin-bottom: 20px;
@@ -47,6 +52,11 @@
 }
 .box-shadow__social {
   padding: 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
