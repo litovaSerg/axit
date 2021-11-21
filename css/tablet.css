@@ -22,10 +22,11 @@
   text-align: center;
 }
 .header-title {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   padding: 10px 0;
-  background-size: cover;
+  background: black;
+  /* background-size: cover; */
 }
 .header-title__h1 {
   margin-bottom: 14px;
