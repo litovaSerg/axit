@@ -1,12 +1,8 @@
 /* Adaptive 481px-768px*/
 /* @media (min-width: 481px) and (max-width: 1080px) { */
 .inner {
+  /* max-width: 738px; */
   width: 100%;
-}
-.container {
-  width: 100%;
-  /* max-width: 1400px; */
-  /* margin: 0 auto; */
 }
 .header-title__box {
   flex-wrap: wrap;
