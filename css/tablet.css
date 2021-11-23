@@ -13,8 +13,9 @@
   flex-wrap: wrap;
 }
 .top-header__logo {
-  padding-right: 4%;
-  padding-left: 2%;
+  display: none;
+  /* padding-right: 4%;
+  padding-left: 2%; */
 }
 .top-header__navbar {
   flex-wrap: wrap;
