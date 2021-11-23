@@ -23,14 +23,16 @@
   font-size: 18px;
 }
 .header-title__content {
+  flex: 0 0 100%;
   text-align: center;
 }
 .header-title {
   max-width: 100%;
   height: auto;
   padding: 10px 0;
-  background: black;
-  /* background-size: cover; */
+  background: url("../images/header-back.png") no-repeat;
+  /* background: black; */
+  background-size: cover;
 }
 .header-title__h1 {
   margin-bottom: 14px;
