@@ -128,9 +128,6 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
-.top-header__nav {
-  padding: 0 10px;
-}
 .top-header__navbar {
   display: flex;
 }
@@ -822,8 +819,12 @@ textarea::placeholder {
   .top-header__logo {
     display: none;
   }
+  .top-header__nav {
+    padding: 0 10px;
+  }
   .top-header__navbar {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .top-header__link {
     font-size: 18px;
